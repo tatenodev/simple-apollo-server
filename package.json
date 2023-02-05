@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "compile": "tsc",
-    "start": "npm run compile && node ./dist/index.js"
+    "start": "npm run compile && node ./dist/index.js",
+    "build": "npm install && num run compile",
+    "start:production": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
